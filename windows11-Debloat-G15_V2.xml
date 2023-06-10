@@ -1,0 +1,431 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Preset isAutoSaved="true" xmlns="urn:schemas-nliteos-com:pn.v1">
+	<Date>05/24/2023 13:20:13</Date>
+	<AppInfo>
+		<Version>2023.5.9249</Version>
+		<Licensed>Yes</Licensed>
+		<Protections>Yes</Protections>
+		<Host>Windows 11 Pro (22H2) x64 - 10.0.22621.1702 (en-GB)</Host>
+	</AppInfo>
+	<ImageInfo>
+		<Version mode="offline">Windows 11 Professional (22H2) x64 - 10.0.22621.525 (en-GB)</Version>
+		<GUID>{5A46A18C-F57D-48D3-A2AB-CAEF9F07CFF7}</GUID>
+	</ImageInfo>
+	<RemoveComponents AppRemovalMode="DISM">
+		<c>axinstall 'ActiveX Installer Service'</c>
+		<c>clipchamp.clipchamp 'Clipchamp'</c>
+		<c>driver_c_infrared.inf</c>
+		<c>driver_c_sensor.inf</c>
+		<c>driver_fusionv2.inf</c>
+		<c>driver_sensorsalsdriver.inf</c>
+		<c>driver_sensorshidclassdriver.inf</c>
+		<c>driver_sensorsservicedriver.inf</c>
+		<c>font_holomd2 'Holo MDL2 Assets'</c>
+		<c>internetexplorer 'Internet Explorer'</c>
+		<c>internetexplorer32 'Internet Explorer - 32 bit'</c>
+		<c>langarabic 'Arabic'</c>
+		<c>langbasque 'Basque'</c>
+		<c>langbulgarian 'Bulgarian'</c>
+		<c>langcatalan 'Catalan'</c>
+		<c>langchineses 'Chinese Simplified'</c>
+		<c>langchineset 'Chinese Traditional'</c>
+		<c>langcroatian 'Croatian'</c>
+		<c>langczech 'Czech'</c>
+		<c>langdanish 'Danish'</c>
+		<c>langdutch 'Dutch'</c>
+		<c>langestonian 'Estonian'</c>
+		<c>langfinnish 'Finnish'</c>
+		<c>langfrench 'French'</c>
+		<c>langfrenchcanadian 'French (Canadian)'</c>
+		<c>langgalician 'Galician'</c>
+		<c>langgerman 'German'</c>
+		<c>langgreek 'Greek'</c>
+		<c>langhebrew 'Hebrew'</c>
+		<c>langhungarian 'Hungarian'</c>
+		<c>langime 'Input Method Editor (IME)'</c>
+		<c>langimejp 'Japanese (IME)'</c>
+		<c>langimeko 'Korean (IME)'</c>
+		<c>langimetc 'Chinese Traditional (IME)'</c>
+		<c>langindonesian 'Indonesian'</c>
+		<c>langitalian 'Italian'</c>
+		<c>langjapanese 'Japanese'</c>
+		<c>langkorean 'Korean'</c>
+		<c>langlatvian 'Latvian'</c>
+		<c>langlithuanian 'Lithuanian'</c>
+		<c>langnorwegian 'Norwegian'</c>
+		<c>langpolish 'Polish'</c>
+		<c>langportuguesebr 'Portuguese (Brazilian)'</c>
+		<c>langportuguesept 'Portuguese'</c>
+		<c>langromanian 'Romanian'</c>
+		<c>langserbian 'Serbian'</c>
+		<c>langslovak 'Slovak'</c>
+		<c>langslovenian 'Slovenian'</c>
+		<c>langspanish 'Spanish'</c>
+		<c>langswedish 'Swedish'</c>
+		<c>langthai 'Thai'</c>
+		<c>langturkish 'Turkish'</c>
+		<c>langukrainian 'Ukrainian'</c>
+		<c>langvietnamese 'Vietnamese'</c>
+		<c>mapcontrol 'Map Control'</c>
+		<c>microsoft.549981c3f5f10 'Cortana'</c>
+		<c>microsoft.bingnews 'Microsoft News'</c>
+		<c>microsoft.ecapp 'Eye Control'</c>
+		<c>microsoft.gethelp 'Get Help'</c>
+		<c>microsoft.getstarted 'Tips (Get Started)'</c>
+		<c>microsoft.microsoftofficehub 'Office'</c>
+		<c>microsoft.microsoftsolitairecollection 'Microsoft Solitaire Collection'</c>
+		<c>microsoft.people 'Microsoft People'</c>
+		<c>microsoft.powerautomatedesktop 'Power Automate'</c>
+		<c>microsoft.todos 'Microsoft To Do'</c>
+		<c>microsoft.windows.callingshellapp 'Call'</c>
+		<c>microsoft.windows.narratorquickstart 'Narrator'</c>
+		<c>microsoft.windows.parentalcontrols 'Microsoft family features'</c>
+		<c>microsoft.windowscommunicationsapps 'Mail and Calendar'</c>
+		<c>microsoft.windowsfeedbackhub 'Feedback Hub'</c>
+		<c>microsoft.windowsmaps 'Windows Maps'</c>
+		<c>microsoft.windowssoundrecorder 'Windows Voice Recorder'</c>
+		<c>microsoft.zunevideo 'Films &amp; TV'</c>
+		<c>mixedreality 'Windows Mixed Reality'</c>
+		<c>mobilepc</c>
+		<c>mobilepc_location 'Location notifications'</c>
+		<c>mobilepc_networkprojection 'Network Projection'</c>
+		<c>mobilepc_sensors 'Sensors'</c>
+		<c>payments</c>
+		<c>remoteassistance 'Remote Assistance'</c>
+		<c>skypeortc 'Skype ORTC'</c>
+		<c>wallet 'Wallet Service'</c>
+	</RemoveComponents>
+	<Compatibility protectHidden="true">
+		<ComponentFeatures>
+			<Feature enabled="no">AppGuard</Feature>
+			<Feature enabled="no">YubiKey</Feature>
+			<Feature enabled="no">Bluetooth</Feature>
+			<Feature enabled="no">CapFrameX</Feature>
+			<Feature enabled="yes">Discord</Feature>
+			<Feature enabled="yes">FileSharing</Feature>
+			<Feature enabled="no">Hyper-V</Feature>
+			<Feature enabled="no">iCloud</Feature>
+			<Feature enabled="yes">ManualSetup</Feature>
+			<Feature enabled="yes">OfficeSupport</Feature>
+			<Feature enabled="yes">AppxSupport</Feature>
+			<Feature enabled="yes">Netflix</Feature>
+			<Feature enabled="no">NetworkDiscovery</Feature>
+			<Feature enabled="no">NightLight</Feature>
+			<Feature enabled="yes">NvidiaSetup</Feature>
+			<Feature enabled="yes">OOBE</Feature>
+			<Feature enabled="yes">Printing</Feature>
+			<Feature enabled="yes">Recommended-All</Feature>
+			<Feature enabled="no">SamsungSwitch</Feature>
+			<Feature enabled="yes">Scanning</Feature>
+			<Feature enabled="yes">ServicingStack</Feature>
+			<Feature enabled="yes">ShellSearchSupport</Feature>
+			<Feature enabled="yes">Spotify</Feature>
+			<Feature enabled="yes">SFC</Feature>
+			<Feature enabled="yes">DefaultFonts</Feature>
+			<Feature enabled="no">SafeMode</Feature>
+			<Feature enabled="yes">TeamViewer</Feature>
+			<Feature enabled="no">Recommended-Tablet</Feature>
+			<Feature enabled="no">USBModem</Feature>
+			<Feature enabled="yes">USB</Feature>
+			<Feature enabled="yes">VideoPlayback</Feature>
+			<Feature enabled="no">VPN</Feature>
+			<Feature enabled="no">VisualStudio</Feature>
+			<Feature enabled="no">VSS</Feature>
+			<Feature enabled="yes">ActivationKMS</Feature>
+			<Feature enabled="yes">Activation</Feature>
+			<Feature enabled="yes">WindowsStore</Feature>
+			<Feature enabled="yes">WindowsUpdate</Feature>
+			<Feature enabled="yes">WLAN</Feature>
+		</ComponentFeatures>
+		<MachineDrivers>
+			<Machine enabled="yes">HostMachine</Machine>
+			<Machine enabled="no">Hyper-V VM</Machine>
+			<Machine enabled="no">Parallels VM</Machine>
+			<Machine enabled="no">Virtual Box VM</Machine>
+			<Machine enabled="no">VMware VM</Machine>
+		</MachineDrivers>
+	</Compatibility>
+	<Features>
+		<Feature name="NetFX3~~~~">true</Feature>
+		<Feature name="NetFx4Extended-ASPNET45">true</Feature>
+		<Feature name="Language.Speech~~~en-gb~0.0.1.0">false</Feature>
+		<Feature name="Language.TextToSpeech~~~en-gb~0.0.1.0">false</Feature>
+		<Feature name="HostGuardian">true</Feature>
+		<Feature name="Microsoft-Hyper-V-Management-Clients">true</Feature>
+		<Feature name="Microsoft-Hyper-V-Hypervisor">true</Feature>
+		<Feature name="Microsoft-Hyper-V-Tools-All">true</Feature>
+		<Feature name="Microsoft-Hyper-V-Management-PowerShell">true</Feature>
+		<Feature name="Microsoft-Hyper-V">true</Feature>
+		<Feature name="Microsoft-Hyper-V-Services">true</Feature>
+		<Feature name="Microsoft-Hyper-V-All">true</Feature>
+		<Feature name="Browser.InternetExplorer~~~~0.0.11.0">false</Feature>
+		<Feature name="Printing-Foundation-InternetPrinting-Client">false</Feature>
+		<Feature name="MathRecognizer~~~~0.0.1.0">false</Feature>
+		<Feature name="Windows-Defender-ApplicationGuard">true</Feature>
+		<Feature name="App.StepsRecorder~~~~0.0.1.0">false</Feature>
+		<Feature name="VirtualMachinePlatform">true</Feature>
+		<Feature name="Microsoft.Windows.Ethernet.Client.Vmware.Vmxnet3~~~~0.0.1.0">false</Feature>
+		<Feature name="HypervisorPlatform">true</Feature>
+		<Feature name="Containers-DisposableClientVM">true</Feature>
+		<Feature name="Microsoft-Windows-Subsystem-Linux">true</Feature>
+		<Feature name="Microsoft.Windows.WordPad~~~~0.0.1.0">false</Feature>
+	</Features>
+	<Packages>
+		<File>C:\Program Files\NTLite\Cache\Updates\11.22H2.x64\windows11.0-kb5023360-x64_c468c54177d262cb0c1927283d807b8f9afe3046.cab</File>
+		<File>C:\Program Files\NTLite\Cache\Updates\11.22H2.x64\windows11.0-kb5026372-x64_d2e542ce70571b093d815adb9013ed467a3e0a85.msu</File>
+		<File>C:\Program Files\NTLite\Cache\Updates\11.22H2.x64\windows11.0-kb5022497-x64-ndp481_92ce32e8d1d29d5b572e929f4ff90e85a012b4d6.msu</File>
+	</Packages>
+	<Commands>
+		<PostUpdates>
+			<!--<Command>cmd /c echo Example from [MOUNTDIR]\Windows &amp; pause</Command>-->
+			<!--<Command>dism /image:[MOUNTDIR] /get-intl</Command>-->
+		</PostUpdates>
+	</Commands>
+	<Drivers showHidden="true">
+		<File>host_imported\netax88179x_178a_772d.inf_amd64_e86ece73a69c7639\NETax88179x_178a_772d.inf</File>
+		<File>host_imported\armourycratecontrolinterface.inf_amd64_f2ab59957eb8b6b4\ArmouryCrateControlInterface.inf</File>
+		<File>host_imported\armourycratecontrolinterface.inf_amd64_8bc7423a5bd9bc97\armourycratecontrolinterface.inf</File>
+		<File>host_imported\asusptpfilter.inf_amd64_2be525c42dff92ab\AsusPTPFilter.inf</File>
+		<File>host_imported\asusptpfilter.inf_amd64_314b5cb6bf57f471\asusptpfilter.inf</File>
+		<File>host_imported\asussci2.inf_amd64_bf969a2fcea35523\asussci2.inf</File>
+		<File>host_imported\asussci2.inf_amd64_e66da585a80ae7c5\asussci2.inf</File>
+		<File>host_imported\ga503rw_311.inf_amd64_ba4167583ac3c837\GA503RW_311.inf</File>
+		<File>host_imported\ga503rw_313.inf_amd64_629f6114ec6df6f7\GA503RW_313.inf</File>
+		<File>host_imported\igovsd.inf_amd64_1a97770826510b34\igovsd.inf</File>
+		<File>host_imported\rogkb.inf_amd64_d77507607440a92c\ROGKB.inf</File>
+		<File>host_imported\rogms.inf_amd64_9074891d243b506d\ROGMS.inf</File>
+		<File>host_imported\netathurx.inf_amd64_8c7062e86e5b79ae\netathurx.inf</File>
+		<File>host_imported\bhtsddr.inf_amd64_02524b8ff3e983e5\bhtsddr.inf</File>
+		<File>host_imported\bhtsddr.inf_amd64_46687f6c418746f4\bhtsddr.inf</File>
+		<File>host_imported\sr9900.inf_amd64_33621398fa77395c\sr9900.inf</File>
+		<File>host_imported\dax3_ext_rtk.inf_amd64_a825b14e4b53e49b\dax3_ext_rtk.inf</File>
+		<File>host_imported\dax3_swc_aposvc.inf_amd64_3886d4759c27592b\dax3_swc_aposvc.inf</File>
+		<File>host_imported\dax3_swc_aposvc.inf_amd64_91e825316dd5b8b9\dax3_swc_aposvc.inf</File>
+		<File>host_imported\dax3_swc_hsa.inf_amd64_7500b685d296c9b6\dax3_swc_hsa.inf</File>
+		<File>host_imported\wbfusbdriver.inf_amd64_53dc41913af8e27f\wbfusbdriver.inf</File>
+		<File>host_imported\fmapo.inf_amd64_09c7b9ce34b25c5e\fmapo.inf</File>
+		<File>host_imported\fmservice.inf_amd64_04e71823e1d032a4\fmservice.inf</File>
+		<File>host_imported\oemxaudioextfm_asus.inf_amd64_5ec7d9df16697c12\oemxaudioextfm_asus.inf</File>
+		<File>host_imported\m27fa_hdr.inf_amd64_faa3c35549e21585\m27fa_hdr.inf</File>
+		<File>host_imported\android_winusb.inf_amd64_b8b3f66f515e3d81\android_winusb.inf</File>
+		<File>host_imported\usb_2.0_billboard.inf_amd64_e2fe28df4107f017\usb_2.0_billboard.inf</File>
+		<File>host_imported\cordhid.inf_amd64_08e897dc28443f55\cordhid.inf</File>
+		<File>host_imported\logi_joy_bus_enum.inf_amd64_5e984dae08ef9545\logi_joy_bus_enum.inf</File>
+		<File>host_imported\logi_joy_hid.inf_amd64_66435b0f755eebe7\logi_joy_hid.inf</File>
+		<File>host_imported\logi_joy_vir_hid.inf_amd64_9f941d7e3c42f879\logi_joy_vir_hid.inf</File>
+		<File>host_imported\unifhid.inf_amd64_ba680b8596be64e8\unifhid.inf</File>
+		<File>host_imported\logi_win_usb.inf_amd64_9cf22cfb5d839f85\logi_win_usb.inf</File>
+		<File>host_imported\mtkbtfilter.inf_amd64_88ed30f2030f0b1f\mtkbtfilter.inf</File>
+		<File>host_imported\mtkbtfilter.inf_amd64_7486ce1274f6d8a4\mtkbtfilter.inf</File>
+		<File>host_imported\mtkwl6ex.inf_amd64_5da5b0d54023c0dc\mtkwl6ex.inf</File>
+		<File>host_imported\mtkwl6ex.inf_amd64_5b69b94a01e4d22b\mtkwl6ex.inf</File>
+		<File>host_imported\nvami.inf_amd64_aea1bab32fe9c8c8\nvami.inf</File>
+		<File>host_imported\nvmoduletracker.inf_amd64_0c1cc60a4b422185\nvmoduletracker.inf</File>
+		<File>host_imported\nvmoduletracker.inf_amd64_97c1f6d07bf18811\nvmoduletracker.inf</File>
+		<File>host_imported\nvpcf.inf_amd64_86f1b300344f114e\nvpcf.inf</File>
+		<File>host_imported\nvpcf.inf_amd64_d24f8d72475a1b24\nvpcf.inf</File>
+		<File>host_imported\nvpcf.inf_amd64_6ab6b824666f94bc\nvpcf.inf</File>
+		<File>host_imported\nvppc.inf_amd64_a5ba72ebdd856562\nvppc.inf</File>
+		<File>host_imported\nvswcfilter.inf_amd64_6ae41752025e82b3\NVSWCFilter.inf</File>
+		<File>host_imported\nvvad.inf_amd64_3328072030df5d56\nvvad.inf</File>
+		<File>host_imported\nvvad.inf_amd64_912693bf1dfeff0b\nvvad.inf</File>
+		<File>host_imported\nvvad.inf_amd64_6c2ba0d2ff6d3b11\nvvad.inf</File>
+		<File>host_imported\nvvhci.inf_amd64_bed3b27bd7058682\nvvhci.inf</File>
+		<File>host_imported\nvvhci.inf_amd64_8f7dbc4b83b3615c\nvvhci.inf</File>
+		<File>host_imported\nvhda.inf_amd64_d3e6b4e4a8e37d92\nvhda.inf</File>
+		<File>host_imported\vboxnetadp6.inf_amd64_37b41c46e926407a\VBoxNetAdp6.inf</File>
+		<File>host_imported\vboxusb.inf_amd64_8931aaf37ae96d4c\VBoxUSB.inf</File>
+		<File>host_imported\oemvista.inf_amd64_4c9c04020589fe8d\oemvista.inf</File>
+		<File>host_imported\realtekapo.inf_amd64_2a8d34c2796a10cc\RealtekAPO.inf</File>
+		<File>host_imported\realtekapo.inf_amd64_cafde37b477c6720\RealtekAPO.inf</File>
+		<File>host_imported\realtekasio.inf_amd64_d8d14eba3c3bec87\realtekasio.inf</File>
+		<File>host_imported\realtekasio.inf_amd64_d94ae04f3f1adfcb\RealtekASIO.inf</File>
+		<File>host_imported\realtekhsa.inf_amd64_759cfa83f9396820\RealtekHSA.inf</File>
+		<File>host_imported\realtekhsa.inf_amd64_1dd27a91fc59a9d8\RealtekHSA.inf</File>
+		<File>host_imported\realtekservice.inf_amd64_179f26ff7cd32d0f\RealtekService.inf</File>
+		<File>host_imported\realtekservice.inf_amd64_96504635f974b562\RealtekService.inf</File>
+		<File>host_imported\rt25cx21x64.inf_amd64_36f5efb51ed629a1\rt25cx21x64.inf</File>
+		<File>host_imported\rt25cx21x64.inf_amd64_838173f39a20971a\rt25cx21x64.inf</File>
+		<File>host_imported\hdx_asusext_dolby_wrap_forte2_kd.inf_amd64_f23effcc5f945cc6\HDX_AsusExt_DOLBY_Wrap_FORTE2_KD.inf</File>
+		<File>host_imported\hdxacpasus.inf_amd64_dc349718d1d215a8\HDXACPASUS.inf</File>
+		<File>host_imported\hdxacpasus.inf_amd64_926aeb3a04a989c5\HDXACPASUS.inf</File>
+	</Drivers>
+	<Unattended mode="1">
+		<OEMSetupComplete>false</OEMSetupComplete>
+		<AnswerFileLocationPanther>true</AnswerFileLocationPanther>
+		<AnswerFileLocationBoot>true</AnswerFileLocationBoot>
+		<SaveBothArch>false</SaveBothArch>
+		<EditionPrompt>true</EditionPrompt>
+		<settings pass="oobeSystem">
+			<component name="Microsoft-Windows-Shell-Setup">
+				<OOBE>
+					<HideLocalAccountScreen>false</HideLocalAccountScreen>
+				</OOBE>
+			</component>
+		</settings>
+		<settings pass="specialize">
+			<component name="Microsoft-Windows-Shell-Setup">
+				<ComputerName>X1</ComputerName>
+				<RegisteredOwner>ox1de</RegisteredOwner>
+			</component>
+		</settings>
+		<settings pass="windowsPE">
+			<component name="Microsoft-Windows-Setup">
+				<DynamicUpdate>
+					<WillShowUI>OnError</WillShowUI>
+				</DynamicUpdate>
+				<ImageInstall>
+					<OSImage>
+						<WillShowUI>OnError</WillShowUI>
+						<InstallFrom>
+							<MetaData>
+								<Key>/IMAGE/INDEX</Key>
+								<Value>6</Value>
+							</MetaData>
+						</InstallFrom>
+					</OSImage>
+				</ImageInstall>
+				<UserData>
+					<FullName>ox1de</FullName>
+					<ProductKey>
+						<Key></Key>
+						<WillShowUI>OnError</WillShowUI>
+					</ProductKey>
+				</UserData>
+			</component>
+		</settings>
+	</Unattended>
+	<Tweaks>
+		<Settings>
+			<TweakGroup name="DesktopTweaks">
+				<Tweak name="Communications\ConfigureChatAutoInstall">0</Tweak>
+			</TweakGroup>
+			<TweakGroup name="PowerAndShutdown">
+				<Tweak name="FlyoutMenuSettings\ShowSleepOption">0</Tweak>
+			</TweakGroup>
+			<TweakGroup name="Privacy">
+				<Tweak name="DataCollection\AllowTelemetry">4</Tweak>
+				<Tweak name="CloudContent\DisableWindowsConsumerFeatures">1</Tweak>
+				<Tweak name="features\PaidWifi">0</Tweak>
+				<Tweak name="features\WiFiSenseOpen">0</Tweak>
+				<Tweak name="System\AllowClipboardHistory">1</Tweak>
+				<Tweak name="Windows Search\AllowCortana">0</Tweak>
+				<Tweak name="AppSettings\Skype-UserConsentAccepted">0</Tweak>
+				<Tweak name="System\EnableActivityFeed">0</Tweak>
+				<Tweak name="InputPersonalization\AllowInputPersonalization">0</Tweak>
+				<Tweak name="Windows Search\AllowCloudSearch">0</Tweak>
+				<Tweak name="FlipAhead\FPEnabled">0</Tweak>
+			</TweakGroup>
+			<TweakGroup name="System">
+				<Tweak name="OOBE\BypassNRO">1</Tweak>
+				<Tweak name="LabConfig\BypassRAMCheck">1</Tweak>
+			</TweakGroup>
+			<TweakGroup name="UAC">
+				<Tweak name="System\ConsentPromptBehaviorAdmin">3</Tweak>
+			</TweakGroup>
+			<TweakGroup name="WindowsUpdate">
+				<Tweak name="DeliveryOptimization\DODownloadMode">3</Tweak>
+			</TweakGroup>
+		</Settings>
+		<Services>
+			<TweakGroup name="services">
+				<Tweak name="DiagTrack\DiagTrack">4</Tweak>
+				<Tweak name="TrkWks\TrkWks">4</Tweak>
+			</TweakGroup>
+		</Services>
+		<ExtraServices></ExtraServices>
+		<ScheduledTasks></ScheduledTasks>
+	</Tweaks>
+	<ApplyOptions>
+		<ImageTasks>
+			<Task>imageSaveTrim</Task>
+			<Task>imageFormatWim</Task>
+			<Task>updates_boot.wim_02_2_64</Task>
+			<Task>msix_boot.wim_02_2_64</Task>
+			<Task>imageOptionsCreateIso</Task>
+		</ImageTasks>
+		<AutoIsoFile>C:\Users\TAMGG\Desktop\Windows11Custom_G15.iso</AutoIsoFile>
+		<AutoIsoLabel>ox1de</AutoIsoLabel>
+		<AutoSplitSize>4000</AutoSplitSize>
+		<CleanHotfixedLeftovers>0</CleanHotfixedLeftovers>
+		<OptimizeAppX>false</OptimizeAppX>
+		<ReuseDriverCache>false</ReuseDriverCache>
+	</ApplyOptions>
+	<Execution>
+		<Remove></Remove>
+		<Change></Change>
+		<Add>
+			<Item type="File">
+				<Path>C:\Users\TAMGG\Downloads\Software\Asus\WirelessLan_ROG_MediaTek_B_V3.03.02.0771Sub1_33796.exe</Path>
+				<Params></Params>
+				<Index>0</Index>
+			</Item>
+			<Item type="File">
+				<Path>C:\Users\TAMGG\Downloads\Software\Asus\AMD_Chipset_DriverOnly_ROG_AMD_B_V1.2.0.119_29470.exe</Path>
+				<Params></Params>
+				<Index>1</Index>
+			</Item>
+			<Item type="File">
+				<Path>C:\Users\TAMGG\Downloads\Software\Asus\Bluetooth_ROG_MediaTek_B_V1.932.2.294Sub1_33780.exe</Path>
+				<Params></Params>
+				<Index>2</Index>
+			</Item>
+			<Item type="File">
+				<Path>C:\Users\TAMGG\Downloads\Software\Asus\PrecisionTouchPad_ROG_ASUS_B_V16.0.0.13Sub1_28583_1.exe</Path>
+				<Params></Params>
+				<Index>3</Index>
+			</Item>
+			<Item type="File">
+				<Path>C:\Users\TAMGG\Downloads\Software\Asus\CardReader_ROG_Bayhub_B_V2.1.101.10580_28773_1.exe</Path>
+				<Params></Params>
+				<Index>4</Index>
+			</Item>
+			<Item type="File">
+				<Path>C:\Users\TAMGG\Downloads\Software\Asus\Realtek_Audio_V6.0.9427.1_31145_2.exe</Path>
+				<Params></Params>
+				<Index>5</Index>
+			</Item>
+			<Item type="File">
+				<Path>C:\Users\TAMGG\Downloads\Software\Asus\Raid_ROG_AMD_B_V9.3.1.00052_29589.exe</Path>
+				<Params></Params>
+				<Index>6</Index>
+			</Item>
+			<Item type="File">
+				<Path>C:\Users\TAMGG\Downloads\Software\Asus\LAN_ROG_Realtek_B_V1125.008.0515.2022_28770_1.exe</Path>
+				<Params></Params>
+				<Index>7</Index>
+			</Item>
+			<Item type="File">
+				<Path>C:\Users\TAMGG\Downloads\Software\Asus\ArmouryCrateInstaller.exe</Path>
+				<Params></Params>
+				<Index>8</Index>
+			</Item>
+			<Item type="File">
+				<Path>C:\Users\TAMGG\Downloads\Software\Asus\ROGPDFWUpdateTool_onekey_GA503R_52.exe</Path>
+				<Params></Params>
+				<Index>9</Index>
+			</Item>
+			<Item type="File">
+				<Path>C:\Users\TAMGG\Downloads\Software\BraveBrowserSetup-BRV013.exe</Path>
+				<Params></Params>
+				<Index>10</Index>
+			</Item>
+			<Item type="File">
+				<Path>C:\Users\TAMGG\Downloads\Software\GeForce_Experience_v3.27.0.112.exe</Path>
+				<Params></Params>
+				<Index>11</Index>
+			</Item>
+			<Item type="File">
+				<Path>C:\Users\TAMGG\Downloads\Software\pia-windows-x64-3.3.1-06924.exe</Path>
+				<Params></Params>
+				<Index>12</Index>
+			</Item>
+			<Item type="File">
+				<Path>C:\Users\TAMGG\Downloads\Software\SteamSetup.exe</Path>
+				<Params></Params>
+				<Index>13</Index>
+			</Item>
+		</Add>
+	</Execution>
+	<Registry></Registry>
+</Preset>
